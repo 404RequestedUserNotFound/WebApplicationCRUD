@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "AddProduct";
+}
+
+<h2>AddProduct</h2>
+
+<form action="" method="post">
+    <input type="text" name="PName" value="@(Model == null ? "" : Model.PName)" class="form-control" placeholder="Name" />
+    <input type="text" name="PId" value="@(Model == null ? "" : Model.PId)" class="form-control" placeholder="Gender" />
+    <input type="text" name="PDescription" value="@(Model == null ? "" : Model.PDescription)" class="form-control" placeholder="Profession" />
+    <input type="submit" value="Create" class="btn btn-success" />
+
+
+</form>
+
+
+
+@*Product Name:
+    <input type="text" name="PName" placeholder="Enter the product name" value="@(Model == null ? "" : Model.PName)" class="form-control" />
+    <br />
+
+
+    Product Id:
+    <input type="text" name="PId" placeholder="Enter the product id" value="@(Model == null ? "" : Model.PId)" class="form-control" />
+    <br />
+
+    Product Description:
+    <input type="text" name="PDescription" placeholder="Enter the product details" value="@(Model == null ? "" : Model.PDescription)" class="form-control" />
+    <br />*@

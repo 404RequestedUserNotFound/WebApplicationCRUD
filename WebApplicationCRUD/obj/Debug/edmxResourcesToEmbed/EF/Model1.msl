@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_TASKModelStoreContainer" CdmEntityContainer="DB_TASKEntities1">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="DB_TASKModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="CId2" ColumnName="CId2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CMN_Table">
+      <EntityTypeMapping TypeName="DB_TASKModel.CMN_Table">
+        <MappingFragment StoreEntitySet="CMN_Table">
+          <ScalarProperty Name="CMNId" ColumnName="CMNId" />
+          <ScalarProperty Name="CMNPId" ColumnName="CMNPId" />
+          <ScalarProperty Name="CMNOId" ColumnName="CMNOId" />
+          <ScalarProperty Name="CMNUId" ColumnName="CMNUId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="DB_TASKModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="s" ColumnName="s" />
+          <ScalarProperty Name="OQuantity" ColumnName="OQuantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DB_TASKModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="PId" ColumnName="PId" />
+          <ScalarProperty Name="PName" ColumnName="PName" />
+          <ScalarProperty Name="PDescription" ColumnName="PDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DB_TASKModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UId" ColumnName="UId" />
+          <ScalarProperty Name="UName" ColumnName="UName" />
+          <ScalarProperty Name="UDetails" ColumnName="UDetails" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
